@@ -1,0 +1,594 @@
+body{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    font-family: system-ui;
+    overflow-x:hidden;
+}
+
+.sidebar{
+    margin-top: 60px;
+    background-color: black;
+    display: inline-block;
+    height: 100vh;
+    width: 250px;
+}
+
+.hom{
+    margin-top: 15px;
+    margin-left: 15px;
+    width: 150px;
+}
+
+.home{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    background-color: rgb(33, 30, 30);
+    padding: 10px;
+}
+
+.homeimg{
+    width: 20px;
+    margin-left: 22px;
+    margin-top: 1px;
+}
+
+.sidebar span{
+    margin-left: 10px;
+    color: white;
+}
+
+.searchimg{
+    width: 20px;
+    margin-left: 28px;
+    margin-top: 5px; 
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.libraryimg{
+    width: 20px;
+    margin-left: 30px;
+    margin-top: 15px;
+}
+
+.library{
+    display: flex;
+    align-items: end;
+    padding: 5px;
+}
+
+.playlist1{
+    width: 25px;
+    margin-left: 28px;
+    margin-top: 35px;
+}
+
+.playlist{
+    display: flex;
+    align-items: end;
+    padding: 5px;
+}
+
+.like{
+    width: 25px;
+    margin-left: 28px;
+    margin-top: 10px;
+}
+
+.likedsongs{
+    display: flex;
+    align-items: end;
+    padding: 5px;
+}
+
+.episodes{
+    width: 25px;
+    margin-left: 28px;
+    margin-top: 10px;
+}
+
+.yourepisodes{
+    display: flex;
+    align-items: end;
+    padding: 5px;
+}
+
+h3,h4{
+    font-size: 16px;
+    color: white;
+    margin-left: 28px;
+    font-weight: 500;
+}
+
+#first{
+    margin-top: 30px;
+}
+
+
+.inst{
+    width: 25px;
+    margin-left: 28px;
+    margin-top: 10px;
+    
+}
+
+.install{
+    display: flex;
+    align-items: end;
+    padding: 5px;
+    font-weight: 600;
+}
+
+
+.menu{
+    display: inline-block;
+    position: absolute;
+    background-color: rgb(33, 30, 30);
+    width: 100%;
+    margin-top: 60px;
+    height: 60vw;
+}
+
+.arrow{
+    width: 100px;
+    margin-left: 40px;
+    margin-top: 15px;
+}
+
+.user{
+    margin-left: 980px;
+    width: 105px;
+}
+
+
+
+.menu h1{
+    color: white;
+    margin-left: 28px;
+    font-weight: 700;
+
+}
+
+.grid1{
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    gap: 120px;
+}
+
+.playlike{
+    width: 275px;
+    background-color: rgb(66, 59, 59);
+    margin-left: 28px;
+    height: 85px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.likeplay{
+    width: 85px;
+}
+
+.menu span{
+    color: white;
+    margin-left: 15px;
+}
+
+
+.neffex{
+    width: 275px;
+    background-color: rgb(66, 59, 59);
+    margin-left: 10px;
+    height: 85px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.nplaylist{
+    width: 85px;
+}
+
+
+.kda{
+    width: 275px;
+    background-color: rgb(66, 59, 59);
+    margin-left: 0;
+    height: 85px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.k{
+    width: 85px;
+}
+
+.likeds{
+    width: 275px;
+    background-color: rgb(66, 59, 59);
+    margin-left: 0;
+    height: 85px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    margin-right: 255px;
+}
+
+.songliked{
+    width: 85px;
+}
+
+.dance{
+    width: 275px;
+    margin-top: 20px;
+    margin-left: 28px;
+    background-color: rgb(66, 59, 59);
+    height: 85px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+
+}
+
+.dance1{
+    width: 85px;
+    margin-top: 0;
+}
+
+
+
+.menu h2{
+    color: white;
+    margin-left: 28px;
+    margin-top: 35px;
+    font-size: 22px;
+    font-weight: 700;
+}
+.show h5{
+    color: grey;
+    margin-left: 1150px;
+    font-weight: 500;
+}
+
+.menu .week{
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.f1{
+    margin-left: 28px;
+    width: 150px;
+}
+
+.grid3 h5{
+    color: white;
+    margin-left: 28px;
+    font-weight: 400;
+}
+
+.grid3{
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px 200px 200px;
+}
+
+.f2{
+    margin-left: 28px;
+    width: 150px;
+}
+
+.grid3 .medi{
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.f3{
+    margin-left: 28px;
+    width: 150px;
+}
+
+.grid3 .words{
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.f4{
+    margin-left: 28px;
+    width: 150px;
+}
+
+.grid3 .alexa{
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.f5{
+    margin-left: 28px;
+    width: 150px;
+}
+
+.grid3 .stories{
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.f6{
+    margin-left: 28px;
+    width: 150px;
+}
+
+.grid3 .motive{
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+
+@media(max-width:800px){
+    .sidebar{
+    height: 60vh;
+    width: 65px;
+    }
+
+    .sidebar span{
+        display: none;
+    }
+
+    .user{
+        margin-left: 350px;
+    }
+
+    h3,h4{
+        display: none;
+    }
+
+    .homeimg {
+        margin-left: 12px;
+    }
+
+    .searchimg, .libraryimg {
+        margin-left: 18px;
+    }
+
+    .playlist1 ,.like ,.episodes ,.inst{
+        margin-left: 15px;
+    }
+
+    .menu{
+        display: inline-block;
+        position: absolute;
+        background-color: rgb(33, 30, 30);
+        width: 90%;
+        margin-top: 60px;
+        height: 150vh;
+    }
+
+    .grid1{
+        display: grid;
+        grid-template-columns: 200px 200px ;
+        grid-template-columns: 200px 200px;
+        gap: 25px;
+    }
+
+    .neffex{
+        width: 275px;
+        background-color: rgb(66, 59, 59);
+        margin-left: 105px;
+        height: 85px;
+        display: flex;
+        align-items: center;
+        border-radius: 5px;
+    }
+
+    .kda{
+        width: 275px;
+        background-color: rgb(66, 59, 59);
+        margin-left: 28px;
+        height: 85px;
+        display: flex;
+        align-items: center;
+        border-radius: 5px;
+    }
+
+    .likeds{
+        width: 275px;
+        background-color: rgb(66, 59, 59);
+        margin-left: 105px;
+        height: 85px;
+        display: flex;
+        align-items: center;
+        border-radius: 5px;
+        margin-right: 255px;
+    }
+    
+    .grid3{
+        display: grid;
+        grid-template-columns: 200px 200px 200px ;
+        grid-template-columns: 200px 200px 200px ;
+    }
+}
+
+
+
+@media(max-width:1350px) and (min-width:800px){
+    .menu{
+        display: inline-block;
+        position: absolute;
+        background-color: rgb(33, 30, 30);
+        width: 90%;
+        margin-top: 60px;
+        height: 100vw;
+    }
+    .user{
+        margin-left: 750px;
+    }
+
+    .grid1{
+        display: grid;
+        grid-template-columns: 200px 200px 200px;
+        gap: 25px;
+    }
+
+    .neffex{
+        width: 275px;
+        background-color: rgb(66, 59, 59);
+        margin-left: 105px;
+        height: 85px;
+        display: flex;
+        align-items: center;
+        border-radius: 5px;
+    }
+
+    .kda{
+        width: 275px;
+        background-color: rgb(66, 59, 59);
+        margin-left: 180px;
+        height: 85px;
+        display: flex;
+        align-items: center;
+        border-radius: 5px;
+    }
+
+    .likeds{
+        width: 275px;
+        background-color: rgb(66, 59, 59);
+        margin-left: 28px;
+        height: 85px;
+        display: flex;
+        align-items: center;
+        border-radius: 5px;
+        margin-right: 255px;
+    }
+
+    .grid2{
+        position: absolute;
+        top: 234px;
+        left: 300px;
+    }
+
+    .grid3{
+        display: grid;
+        grid-template-columns: 200px 200px 200px 200px 200px;
+    }
+
+    .last{
+        position: absolute;
+        top: 780px;
+    }
+}
+
+
+@media(max-width:1120px) and (min-width:800px){
+    .grid2{
+        position: absolute;
+        top: 268px;
+        left: 300px;
+    }
+}
+
+
+
+@media(max-width:450px){
+    .sidebar{
+    height: 60vh;
+    width: 65px;
+    }
+
+    .sidebar span{
+        display: none;
+    }
+
+    .user{
+        margin-left: 12px;
+    }
+
+    h3,h4{
+        display: none;
+    }
+
+    .homeimg {
+        margin-left: 12px;
+    }
+
+    .searchimg, .libraryimg {
+        margin-left: 18px;
+    }
+
+    .playlist1 ,.like ,.episodes ,.inst{
+        margin-left: 15px;
+    }
+
+    .menu{
+        display: inline-block;
+        position: absolute;
+        background-color: rgb(33, 30, 30);
+        width: 95%;
+        margin-top: 60px;
+        height: 200vh;
+        overflow-x: hidden;
+    }
+
+    .grid1{
+        display: grid;
+        grid-template-columns: 200px;
+        grid-template-columns: 200px;
+        grid-template-columns: 200px;
+        grid-template-columns: 200px;
+        gap: 25px;
+    }
+
+    .neffex{
+        width: 275px;
+        background-color: rgb(66, 59, 59);
+        margin-left: 28px;
+        height: 85px;
+        display: flex;
+        align-items: center;
+        border-radius: 5px;
+    }
+
+    .kda{
+        width: 275px;
+        background-color: rgb(66, 59, 59);
+        margin-left: 28px;
+        height: 85px;
+        display: flex;
+        align-items: center;
+        border-radius: 5px;
+    }
+
+    .likeds{
+        width: 275px;
+        background-color: rgb(66, 59, 59);
+        margin-left: 28px;
+        height: 85px;
+        display: flex;
+        align-items: center;
+        border-radius: 5px;
+        margin-right: 255px;
+    }
+    
+    .grid3{
+        display: grid;
+        grid-template-columns: 200px;
+        grid-template-columns: 200px;
+        grid-template-columns: 200px;
+        grid-template-columns: 200px;
+        grid-template-columns: 200px;
+        grid-template-columns: 200px;
+
+
+    }
+}
+
